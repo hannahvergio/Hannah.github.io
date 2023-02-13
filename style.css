@@ -1,0 +1,232 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: #000000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav .logo a {
+    display: flex;
+    font-size: 35px;
+    font-weight: 100;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b {
+    color: #7f00ff;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+nav ul li :hover {
+    color: #7f00ff;
+}
+
+/* nav ul li a::after {
+    content: ' ';
+    width: 0%;
+    height: 3px;
+    background: #7f00ff;
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    transform: translate(-50%);
+    transition: 0.3s;
+}
+
+nav ul li :hover::after{
+    width: 50%;
+} */
+
+.welcom {
+    margin-top: 15%;
+    font-size: 19px;
+    margin-left: 3%;
+    color: #ffffff;
+}
+
+.welcom i {
+    color: #7f00ff;  
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #000000;
+}
+
+.a-text {
+    color: #ffffff;
+    width: 550px;
+}
+
+/* ABOUT PAGE */
+
+#about {
+    padding: 80px 0;
+    background-color: #000000;
+}
+
+.abt {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-1 {
+    flex-basis: 35%;
+}
+
+.about-1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.about-2 {
+    flex-basis: 60%;
+}
+
+.about-2 h2 {
+    padding: 80px 0;
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.about-2 h3 {
+    padding: 10px 0;
+    font-size: 30px;
+    color: #7f00ff;
+}
+
+.about-2 p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* OFFER PAGE */
+
+#offer {
+    padding: 30px 0;
+    color: #ffffff;
+}
+
+.offerlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.offerlist div{
+    background: #7f00ff;
+    padding: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.offerlist div h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.offerlist :hover {
+    background: #8b8b8b;
+    transform: translateX(-10px);
+}
+
+/* CONTACT */
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.title {
+    color: #ffffff;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn {
+    background: #7f00ff;
+    padding: 10px;
+    cursor: pointer;
+}
+
